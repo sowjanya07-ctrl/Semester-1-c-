@@ -7,11 +7,11 @@ int main(){
 	printf("enter elemnts of array : ");
 	for(int i=0;i<n;i++){
 		scanf("%d",&a[i]);
-	}printf("the array is:");
+	}/*printf("the array is:");
 	for(int i=0;i<n;i++){
 		printf("%d,",a[i]);
 		
-	}printf("\n");
+	}printf("\n");*/
 	int min=a[0];
 	for(int i=1;i<n;i++){
 		if(a[i]<min){
